@@ -4,7 +4,7 @@ CREATE database employee_trackerDB;
 USE employee_trackerDB;
 
 CREATE TABLE department (
-    id INT PRIMARY KEY NULL,
+    id INT NOT NULL,
     department_name VARCHAR(50) NULL
 );
 
