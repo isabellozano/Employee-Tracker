@@ -5,7 +5,7 @@ USE employee_trackerDB;
 
 CREATE TABLE department (
     id INT NOT NULL,
-    department_name VARCHAR(50) NULL
+    department VARCHAR(50) NULL
 );
 
 SELECT * FROM department;
